@@ -1,0 +1,66 @@
+# ==============================
+# Secrets / environment files
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.local.example
+!**/.env.example
+!**/.env.local.example
+
+# ==============================
+# Python / backend
+# ==============================
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# ==============================
+# Node / frontend
+# ==============================
+node_modules/
+/hackgenix-frontend/node_modules/
+.next/
+/hackgenix-frontend/.next/
+out/
+build/
+dist/
+coverage/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+*.tsbuildinfo
+.vercel
+
+# ==============================
+# Database dumps / local data
+# ==============================
+*.sql
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+
+# ==============================
+# IDE / OS / system files
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Misc generated artifacts
+# ==============================
+repomix-output.xml
+*.pem
