@@ -1,0 +1,35 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "hackgenix-backend": {
+      "root": "hackgenix-backend",
+      "framework": "fastapi"
+    },
+    "hackgenix-frontend": {
+      "root": "hackgenix-frontend",
+      "framework": "nextjs",
+      "bindings": [
+        {
+          "type": "service",
+          "service": "hackgenix-backend",
+          "format": "url",
+          "env": "BACKEND_URL"
+        }
+      ]
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": {
+        "service": "hackgenix-backend"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "hackgenix-frontend"
+      }
+    }
+  ]
+}
