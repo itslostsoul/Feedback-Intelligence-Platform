@@ -21,7 +21,11 @@ from app.schemas.semantic import FeedbackRelationshipRead, SemanticAnalysisRespo
 from app.services.embedding.base import EmbeddingProvider
 from app.services.feedback_analysis import analyze_feedback, get_analysis_for_feedback
 from app.services.feedback_embedding import embed_feedback
-from app.services.feedback_ingestion import create_or_get_feedback, parse_and_ingest_csv
+from app.services.feedback_ingestion import (
+    create_or_get_feedback,
+    parse_and_ingest_csv,
+    parse_and_ingest_json,
+)
 from app.services.llm.base import LLMProvider
 from app.services.semantic_engine import (
     DEFAULT_CANDIDATE_LIMIT,
@@ -39,6 +43,13 @@ router = APIRouter(prefix="/feedback", tags=["feedback"])
 def ingest_feedback(
     payload: FeedbackCreate, response: Response, db: Session = Depends(get_db)
 ) -> Feedback:
+    """Direct REST ingestion — the integration point for a company's own
+    application/backend to push feedback in as it happens. Deduplicates on
+    (source, external_id): a repeat of an already-seen pair returns the
+    existing row with `200 OK` instead of creating a second one; a new pair
+    returns `201 Created`. Goes through the exact same common ingestion
+    service (`create_or_get_feedback`) as CSV bulk import, webhook
+    ingestion, and scheduled sync."""
     feedback, was_duplicate = create_or_get_feedback(db, payload)
     response.status_code = 200 if was_duplicate else 201
     return feedback
@@ -86,8 +97,47 @@ def list_feedback(
 def bulk_ingest_feedback(
     file: UploadFile = File(...), db: Session = Depends(get_db)
 ) -> BulkIngestResponse:
+    """Bulk CSV ingestion — for a company exporting thousands of existing
+    feedback records at once instead of typing them in one at a time.
+    Required columns: `source`, `raw_text`; optional: `external_id`,
+    `source_type`, `customer_id`, `customer_tier`, `language`,
+    `created_at`. A structurally broken file (empty, wrong encoding,
+    missing required columns, too many rows) is rejected outright; an
+    individual bad row is recorded in `errors` and skipped without
+    aborting the rest of the import. Deduplicates on (source, external_id)
+    via the same common ingestion service used by every other channel —
+    never creates a duplicate row for a pair already seen, whether earlier
+    in this same file or in a previous import."""
     raw_bytes = file.file.read()
     return parse_and_ingest_csv(db, raw_bytes)
+
+
+@router.post("/bulk/json", response_model=BulkIngestResponse)
+def bulk_ingest_json_feedback(
+    file: UploadFile = File(...), db: Session = Depends(get_db)
+) -> BulkIngestResponse:
+    """Bulk JSON ingestion — the same "thousands of historical records at
+    once" use case as CSV bulk import, for a company whose export format is
+    JSON instead of CSV. Expects a file containing a top-level JSON array
+    of objects shaped like the REST `POST /feedback` payload, e.g.:
+
+    ```
+    [{"external_id": "review_001", "source": "app_store",
+      "source_type": "review", "raw_text": "..."}, ...]
+    ```
+
+    Same behavior as CSV bulk import in every other respect: a structurally
+    broken file (empty, invalid JSON, a top-level object instead of an
+    array, too many records) is rejected outright; an individual bad
+    record is recorded in `errors` and skipped without aborting the rest.
+    Deduplicates on (source, external_id) via the same common ingestion
+    service used by every other channel (REST, CSV, webhook, scheduled
+    sync) — never creates a duplicate row for a pair already seen,
+    whether earlier in this same file or in a previous import. Only stores
+    records (`RECEIVED` status); never runs analysis/embedding
+    synchronously for the uploaded records."""
+    raw_bytes = file.file.read()
+    return parse_and_ingest_json(db, raw_bytes)
 
 
 @router.post("/{feedback_id}/analyze", response_model=AnalyzeFeedbackResponse)

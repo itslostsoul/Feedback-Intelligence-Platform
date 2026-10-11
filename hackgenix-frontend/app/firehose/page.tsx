@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 import {
@@ -242,7 +242,7 @@ export default function FirehosePage() {
               )
             : items.map((item, i) => (
                 <div key={item.id} className="flex items-start gap-5 border-b border-border py-5">
-                  <span className="w-7 shrink-0 pt-0.5 font-mono text-xs tabular-nums text-muted-foreground/50">
+                  <span className="w-7 shrink-0 pt-0.5 font-mono text-xs tabular-nums text-muted-foreground">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <div className="min-w-0 flex-1">

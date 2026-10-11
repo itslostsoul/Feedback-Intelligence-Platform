@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef, useState } from "react";
 import {
@@ -177,7 +177,7 @@ export default function AnalyticsPage() {
           <h1 className="font-serif text-3xl tracking-tight text-foreground md:text-4xl">AI Analytics</h1>
           <p className="mt-2 text-sm text-muted-foreground">Customer signal intelligence, calculated from PostgreSQL.</p>
           {lastRefreshed && !error && (
-            <p className="mt-3 font-mono text-[11px] text-muted-foreground/70">
+            <p className="mt-3 font-mono text-xs text-muted-foreground">
               As of {new Date(overview?.calculated_at ?? lastRefreshed).toLocaleString()}
             </p>
           )}
@@ -311,23 +311,23 @@ export default function AnalyticsPage() {
           {/* 06 — AI ANALYSIS — the one place a deliberate dark, contrasting
               panel is used, so "this is an interpretation, not a fact" is
               communicated visually, not just in words. */}
-          <section className="bg-foreground px-6 py-10 text-background sm:px-10 md:py-14">
+          <section className="bg-surface-inverted px-6 py-10 text-surface-inverted-foreground sm:px-10 md:py-14">
             <div className="mb-8 flex items-center gap-2">
               <Sparkles className="h-4 w-4 text-chart-2" />
-              <p className="text-xs font-medium uppercase tracking-[0.14em] text-background/60">AI Analysis</p>
-              <span className="border border-background/25 px-2 py-0.5 text-[10px] uppercase tracking-wide text-background/70">
+              <p className="text-xs font-medium uppercase tracking-[0.14em] text-surface-inverted-foreground">AI Analysis</p>
+              <span className="border border-surface-inverted-foreground/25 px-2 py-0.5 text-xs uppercase tracking-wide text-surface-inverted-foreground">
                 Evidence-grounded
               </span>
             </div>
 
             {insight.status === "idle" && (
-              <p className="max-w-[60ch] text-sm leading-relaxed text-background/70">
+              <p className="max-w-[60ch] text-sm leading-relaxed text-surface-inverted-foreground">
                 Generate a grounded interpretation of the analytics above — every claim will cite the exact
                 aggregate it&rsquo;s based on.
               </p>
             )}
             {insight.status === "loading" && (
-              <p className="text-sm text-background/70">Interpreting the current analytics evidence…</p>
+              <p className="text-sm text-surface-inverted-foreground">Interpreting the current analytics evidence…</p>
             )}
             {insight.status === "error" && (
               <div className="border border-destructive/40 bg-destructive/10 p-4 text-sm text-destructive">
@@ -337,10 +337,10 @@ export default function AnalyticsPage() {
             )}
             {insight.status === "ready" && (
               <div className="space-y-8">
-                <p className="max-w-[62ch] font-serif text-2xl italic leading-snug text-background md:text-3xl">
+                <p className="max-w-[62ch] font-serif text-2xl italic leading-snug text-surface-inverted-foreground md:text-3xl">
                   &ldquo;{insight.data.headline}&rdquo;
                 </p>
-                <p className="font-mono text-[11px] text-background/50">
+                <p className="font-mono text-xs text-surface-inverted-foreground">
                   {insight.data.provider} · {insight.data.model} · {new Date(insight.data.generated_at).toLocaleString()}
                 </p>
 
@@ -406,10 +406,10 @@ function InsightSection({
   if (claims.length === 0) return null;
   return (
     <div>
-      <p className="mb-3 text-xs font-medium uppercase tracking-wide text-background/50">{title}</p>
+      <p className="mb-3 text-xs font-medium uppercase tracking-wide text-surface-inverted-foreground">{title}</p>
       <ul className="space-y-3">
         {claims.map((claim, i) => (
-          <li key={i} className="leading-relaxed text-background/85">
+          <li key={i} className="leading-relaxed text-surface-inverted-foreground">
             {claim.text}{" "}
             <span className="ml-1 inline-flex flex-wrap gap-1 align-middle">
               {claim.evidence_ids.map((id) => {
@@ -420,7 +420,7 @@ function InsightSection({
                     key={id}
                     onClick={() => onNavigate(id)}
                     title={fact.label}
-                    className="border border-background/25 px-2 py-0.5 font-mono text-[10px] text-background/70 transition-colors hover:border-chart-2/60 hover:text-chart-2"
+                    className="border border-surface-inverted-foreground/25 px-2 py-0.5 font-mono text-xs text-surface-inverted-foreground transition-colors hover:border-chart-2/60 hover:text-chart-2"
                   >
                     {formatEvidenceChip(id, fact)}
                   </button>

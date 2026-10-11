@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { cn } from "cn";
 import type { FeedbackCategory, ProductIssueStatus } from "@/lib/api";
@@ -73,7 +73,7 @@ export function IssueRow({
         selected && "bg-surface-4/40"
       )}
     >
-      <span className="w-7 shrink-0 pt-0.5 font-mono text-xs tabular-nums text-muted-foreground/50">
+      <span className="w-7 shrink-0 pt-0.5 font-mono text-xs tabular-nums text-muted-foreground">
         {String(index).padStart(2, "0")}
       </span>
       <div className="min-w-0 flex-1">
@@ -84,7 +84,7 @@ export function IssueRow({
       </div>
       <span
         className={cn(
-          "shrink-0 pt-0.5 text-[11px] font-medium uppercase tracking-wide",
+          "shrink-0 pt-0.5 text-xs font-medium uppercase tracking-wide",
           STATUS_TEXT_CLASS[issue.status]
         )}
       >

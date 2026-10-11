@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -204,7 +204,7 @@ export default function Dashboard() {
           <h1 className="font-serif text-4xl leading-[1.05] tracking-tight text-foreground md:text-5xl">
             Product command center
           </h1>
-          <p className="mt-4 max-w-[46ch] font-serif text-xl italic leading-snug text-foreground/80 md:text-2xl">
+          <p className="mt-4 max-w-[46ch] font-serif text-xl italic leading-snug text-foreground md:text-2xl">
             From customer noise to decision-grade evidence.
           </p>
           <p className="mt-4 max-w-[54ch] text-sm leading-relaxed text-muted-foreground">
@@ -241,10 +241,10 @@ export default function Dashboard() {
               onClick={stage.onClick}
               className="group flex items-baseline gap-2 whitespace-nowrap px-1 py-1 transition-colors"
             >
-              <span className="font-mono text-[11px] text-brass">{stage.index}</span>
+              <span className="font-mono text-xs text-brass">{stage.index}</span>
               <span className="text-muted-foreground transition-colors group-hover:text-foreground">{stage.label}</span>
             </button>
-            {i < pipelineStages.length - 1 && <span className="px-2 text-muted-foreground/40">→</span>}
+            {i < pipelineStages.length - 1 && <span className="px-2 text-muted-foreground">→</span>}
           </div>
         ))}
       </div>

@@ -1,5 +1,6 @@
 import csv
 import io
+import json
 import logging
 
 from pydantic import ValidationError
@@ -53,9 +54,24 @@ def _build_feedback(payload: FeedbackCreate) -> Feedback:
     )
 
 
-def create_or_get_feedback(db: Session, payload: FeedbackCreate) -> tuple[Feedback, bool]:
-    """Insert a new feedback row, or return the existing one if (source,
+def create_or_get_feedback(
+    db: Session, payload: FeedbackCreate, *, extra_metadata: dict | None = None
+) -> tuple[Feedback, bool]:
+    """The common ingestion entrypoint every channel converges on — REST
+    (`POST /feedback`), CSV bulk import, webhook ingestion, and scheduled
+    sync all call this same function, so deduplication behavior (source,
+    external_id) is identical no matter how a feedback item arrived.
+
+    Insert a new feedback row, or return the existing one if (source,
     external_id) already matches a row. Returns (feedback, was_duplicate).
+
+    `extra_metadata`, when given, is merged into the payload's metadata
+    ONLY when a new row is created (a duplicate hit returns the existing
+    row untouched) — used to record traceability like
+    `{"ingestion_method": "webhook", "provider": "zendesk"}` without adding
+    dedicated columns. The plain REST/CSV callers that predate this either
+    omit it or already pass their own tag; behavior for existing callers
+    that don't pass it is unchanged.
 
     Never logs `raw_text`, `customer_id`, or `metadata` — only identifiers
     and the outcome.
@@ -64,6 +80,9 @@ def create_or_get_feedback(db: Session, payload: FeedbackCreate) -> tuple[Feedba
     if existing is not None:
         logger.info("feedback_duplicate id=%s source=%s", existing.id, existing.source)
         return existing, True
+
+    if extra_metadata:
+        payload = payload.model_copy(update={"metadata": {**(payload.metadata or {}), **extra_metadata}})
 
     feedback = _build_feedback(payload)
     db.add(feedback)
@@ -152,7 +171,9 @@ def parse_and_ingest_csv(db: Session, raw_bytes: bytes) -> BulkIngestResponse:
             duplicates += 1
             continue
 
-        feedback, was_duplicate = create_or_get_feedback(db, payload)
+        feedback, was_duplicate = create_or_get_feedback(
+            db, payload, extra_metadata={"ingestion_method": "csv"}
+        )
         if dedup_key is not None:
             seen_keys.add(dedup_key)
 
@@ -172,6 +193,94 @@ def parse_and_ingest_csv(db: Session, raw_bytes: bytes) -> BulkIngestResponse:
 
     return BulkIngestResponse(
         total_rows=len(rows),
+        accepted=accepted,
+        duplicates=duplicates,
+        rejected=rejected,
+        created_ids=created_ids,
+        errors=errors,
+    )
+
+
+def parse_and_ingest_json(db: Session, raw_bytes: bytes) -> BulkIngestResponse:
+    """Parse a JSON file (a top-level array of feedback records) and ingest
+    each one, never letting a single bad record abort the whole import —
+    the exact same per-item resilience, dedup rule, and response shape as
+    `parse_and_ingest_csv`, so CSV and JSON are two input formats for the
+    same bulk ingestion behavior, not two different features.
+
+    Structural problems (empty file, invalid JSON, a top-level value that
+    isn't an array, too many records) reject the whole request instead,
+    since there is nothing safe to partially import in that case.
+    """
+    if not raw_bytes.strip():
+        raise ValidationAppError("JSON file is empty.")
+
+    try:
+        text = raw_bytes.decode("utf-8-sig")
+    except UnicodeDecodeError as exc:
+        raise ValidationAppError("JSON file must be UTF-8 encoded.") from exc
+
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError as exc:
+        raise ValidationAppError(f"File is not valid JSON: {exc.msg}.") from exc
+
+    if not isinstance(data, list):
+        raise ValidationAppError(
+            "JSON file must contain a top-level array of feedback records "
+            f"(got {type(data).__name__})."
+        )
+
+    if len(data) > MAX_BULK_ROWS:
+        raise ValidationAppError(f"JSON file exceeds the maximum of {MAX_BULK_ROWS} records per import.")
+
+    accepted = 0
+    duplicates = 0
+    rejected = 0
+    created_ids: list = []
+    errors: list[BulkIngestRowError] = []
+    seen_keys: set[tuple[str, str]] = set()
+
+    for index, record in enumerate(data, start=1):
+        if not isinstance(record, dict):
+            rejected += 1
+            errors.append(BulkIngestRowError(row=index, message="Record must be a JSON object."))
+            continue
+
+        try:
+            payload = FeedbackCreate(**record)
+        except ValidationError as exc:
+            rejected += 1
+            errors.append(BulkIngestRowError(row=index, message=_format_validation_error(exc)))
+            continue
+
+        dedup_key = (payload.source, payload.external_id) if payload.external_id else None
+        if dedup_key is not None and dedup_key in seen_keys:
+            duplicates += 1
+            continue
+
+        feedback, was_duplicate = create_or_get_feedback(
+            db, payload, extra_metadata={"ingestion_method": "json"}
+        )
+        if dedup_key is not None:
+            seen_keys.add(dedup_key)
+
+        if was_duplicate:
+            duplicates += 1
+        else:
+            accepted += 1
+            created_ids.append(feedback.id)
+
+    logger.info(
+        "feedback_bulk_json_ingest total=%s accepted=%s duplicates=%s rejected=%s",
+        len(data),
+        accepted,
+        duplicates,
+        rejected,
+    )
+
+    return BulkIngestResponse(
+        total_rows=len(data),
         accepted=accepted,
         duplicates=duplicates,
         rejected=rejected,

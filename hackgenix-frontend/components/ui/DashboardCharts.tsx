@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import type { DailyTrendPoint } from "@/lib/api";
 import { categoryLabel } from "@/lib/format";
@@ -61,14 +61,14 @@ export function IssueVolumeChart({
                 className="pointer-events-none absolute left-0 top-full z-10 mt-1.5 max-w-xs border border-border bg-popover px-2.5 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity group-hover:opacity-100"
               >
                 <p className="font-medium">{issue.title}</p>
-                <p className="font-mono text-[10px] text-muted-foreground">{issue.feedback_count} feedback item(s)</p>
+                <p className="font-mono text-xs text-muted-foreground">{issue.feedback_count} feedback item(s)</p>
               </div>
             </div>
           );
         })}
       </div>
       {hiddenCount > 0 && (
-        <p className="mt-3 text-[11px] text-muted-foreground">
+        <p className="mt-3 text-xs text-muted-foreground">
           Showing top {ranked.length} of {issues.length} loaded issues
         </p>
       )}
@@ -223,7 +223,7 @@ export function TrendChart({ points }: { points: DailyTrendPoint[] }) {
                 className="pointer-events-none absolute bottom-full left-1/2 z-10 mb-1.5 -translate-x-1/2 whitespace-nowrap border border-border bg-popover px-2.5 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity group-hover:opacity-100"
               >
                 <p className="font-medium">{formatShortDate(p.date)}</p>
-                <p className="font-mono text-[10px] text-muted-foreground">
+                <p className="font-mono text-xs text-muted-foreground">
                   {p.feedback_count} feedback · {p.high_severity_count} high severity
                 </p>
               </div>
@@ -232,7 +232,7 @@ export function TrendChart({ points }: { points: DailyTrendPoint[] }) {
         })}
       </div>
 
-      <div className="mt-2 flex justify-between text-[11px] text-muted-foreground">
+      <div className="mt-2 flex justify-between text-xs text-muted-foreground">
         <span>{formatShortDate(points[0].date)}</span>
         <span>{formatShortDate(points[points.length - 1].date)}</span>
       </div>

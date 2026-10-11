@@ -127,6 +127,24 @@ class SignalsMissingError(AppError):
     error_code = "signals_missing"
 
 
+class IngestionSourceNotSupportedError(AppError):
+    """The requested webhook provider or sync connector name isn't one this
+    deployment knows how to normalize/fetch — distinct from a malformed
+    payload (ValidationAppError), since the source itself is unrecognized."""
+
+    status_code = status.HTTP_404_NOT_FOUND
+    error_code = "ingestion_source_not_supported"
+
+
+class IngestionConnectorError(AppError):
+    """A FeedbackSourceConnector could not reach or read its upstream
+    source during a scheduled/polling sync — an integration failure, not an
+    internal SignalForge bug."""
+
+    status_code = status.HTTP_502_BAD_GATEWAY
+    error_code = "ingestion_connector_error"
+
+
 def _error_response(status_code: int, error_code: str, message: str) -> JSONResponse:
     return JSONResponse(
         status_code=status_code,

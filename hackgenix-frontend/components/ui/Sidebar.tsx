@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { index: "01", label: "Overview", href: "/" },
   { index: "02", label: "Raw Firehose", href: "/firehose" },
   { index: "03", label: "AI Analytics", href: "/analytics" },
+  { index: "04", label: "Ingest Feedback", href: "/ingest" },
 ];
 
 const COLLAPSE_STORAGE_KEY = "signalforge:sidebar-collapsed";
@@ -63,12 +64,12 @@ export default function Sidebar() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-chart-2 opacity-50" />
             <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-chart-2" />
           </span>
-          {!collapsed && <span className="text-[11px] text-muted-foreground">Live</span>}
+          {!collapsed && <span className="text-xs text-muted-foreground">Live</span>}
         </div>
         <button
           onClick={toggleCollapsed}
           aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
-          className="flex h-6 w-6 shrink-0 items-center justify-center rounded text-muted-foreground/50 transition-colors hover:text-foreground"
+          className="flex h-6 w-6 shrink-0 items-center justify-center rounded text-muted-foreground transition-colors hover:text-foreground"
         >
           {collapsed ? <PanelLeftOpen className="h-3.5 w-3.5" /> : <PanelLeftClose className="h-3.5 w-3.5" />}
         </button>
@@ -104,8 +105,8 @@ export default function Sidebar() {
               >
                 <span
                   className={cn(
-                    "font-mono text-[10px] tabular-nums",
-                    active ? "text-brass" : "text-muted-foreground/50 group-hover:text-muted-foreground"
+                    "font-mono text-xs tabular-nums",
+                    active ? "text-brass" : "text-muted-foreground group-hover:text-foreground"
                   )}
                 >
                   {index}
@@ -139,10 +140,10 @@ export default function Sidebar() {
           deliberately a contextual pointer, never a fake page. */}
       {!collapsed && (
         <div className="mb-6 border-t border-sidebar-border/70 pt-4">
-          <p className="mb-1.5 flex items-center gap-1.5 text-[11px] text-muted-foreground/70">
+          <p className="mb-1.5 flex items-center gap-1.5 text-xs text-muted-foreground">
             <Search className="h-3 w-3" /> Investigate
           </p>
-          <p className="text-[11px] leading-relaxed text-muted-foreground">
+          <p className="text-xs leading-relaxed text-muted-foreground">
             Open any product issue to see its Evidence, Decision, and Challenge / Stability workspace.
           </p>
         </div>
@@ -159,13 +160,13 @@ export default function Sidebar() {
         )}
       >
         <div className={cn("flex items-center gap-2.5", collapsed && "flex-col")}>
-          <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-sidebar-accent font-mono text-[10px] text-sidebar-foreground">
+          <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-sidebar-accent font-mono text-xs text-sidebar-foreground">
             N
           </div>
           {!collapsed && (
             <div className="leading-tight">
               <p className="font-medium text-sidebar-foreground">Nimal YD</p>
-              <p className="text-[10px] uppercase tracking-wide text-muted-foreground/60">by MindFlayers</p>
+              <p className="text-xs uppercase tracking-wide text-muted-foreground">by MindFlayers</p>
             </div>
           )}
         </div>

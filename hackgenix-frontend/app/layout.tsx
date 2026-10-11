@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Mono, Fraunces } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Sidebar from "@/components/ui/Sidebar";
 import MobileNav from "@/components/ui/MobileNav";
+import { ThemeProvider, THEME_INIT_SCRIPT } from "@/components/ui/ThemeProvider";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const plexMono = IBM_Plex_Mono({
@@ -31,13 +34,30 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${plexMono.variable} ${fraunces.variable}`}>
-      <body className="flex min-h-screen flex-col bg-background text-foreground antialiased md:flex-row">
-        {/* Fixed left rail on desktop; a slim top bar takes its place on mobile. */}
-        <Sidebar />
-        <MobileNav />
+    <html lang="en" className={`${inter.variable} ${plexMono.variable} ${fraunces.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Blocking — applies the persisted theme class to <html> before
+            first paint so there is never a light-then-dark flash on reload. */}
+        <Script id="theme-init" strategy="beforeInteractive">
+          {THEME_INIT_SCRIPT}
+        </Script>
+      </head>
+      <body className="flex min-h-screen flex-col bg-background text-foreground md:flex-row">
+        <ThemeProvider>
+          {/* Fixed left rail on desktop; a slim top bar takes its place on mobile. */}
+          <Sidebar />
+          <MobileNav />
 
-        <div className="min-w-0 flex-1 overflow-y-auto">{children}</div>
+          <div className="min-w-0 flex-1 overflow-y-auto">
+            {/* Shared content header — desktop-only; MobileNav carries the
+                same ThemeToggle on narrow viewports instead, so the control
+                is never duplicated in two different implementations. */}
+            <div className="hidden justify-end border-b border-border px-6 py-3 md:flex md:px-12">
+              <ThemeToggle />
+            </div>
+            {children}
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

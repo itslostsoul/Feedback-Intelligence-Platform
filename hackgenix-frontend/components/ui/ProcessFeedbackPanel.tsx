@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
@@ -195,7 +195,7 @@ export default function ProcessFeedbackPanel({
           <div className="border-b border-border px-8 py-6 md:px-10">
             <p className="mb-2 text-xs font-medium uppercase tracking-wide text-brass">Processing signal</p>
             <h2 className="mb-1 font-serif text-2xl tracking-tight">Process feedback</h2>
-            <p className="font-mono text-[11px] text-muted-foreground">{currentId.slice(0, 8)}</p>
+            <p className="font-mono text-xs text-muted-foreground">{currentId.slice(0, 8)}</p>
           </div>
 
           <div className="flex flex-1 flex-col p-8 md:p-10">
@@ -258,7 +258,7 @@ export default function ProcessFeedbackPanel({
                 </p>
               )}
 
-              <p className="font-mono text-[10px] text-muted-foreground">
+              <p className="font-mono text-xs text-muted-foreground">
                 Discovery: {result.discovery.issues_created} created · {result.discovery.issues_updated} updated ·{" "}
                 {result.discovery.feedback_linked} feedback linked
               </p>
@@ -287,11 +287,11 @@ export default function ProcessFeedbackPanel({
 }
 
 const STEP_ROW_TEXT: Record<StepStatus, string> = {
-  pending: "text-muted-foreground/60",
+  pending: "text-muted-foreground",
   running: "text-brass",
   done: "text-foreground",
   error: "text-destructive",
-  skipped: "text-muted-foreground/60",
+  skipped: "text-muted-foreground",
 };
 
 /** A plain numbered sequence — "01 Feedback received ✓" — rather than icons
@@ -312,7 +312,7 @@ function StepRow({
 }) {
   return (
     <li className={`flex items-start gap-4 py-3 ${last ? "" : "border-b border-border"}`}>
-      <span className="w-6 shrink-0 pt-0.5 font-mono text-xs tabular-nums text-muted-foreground/50">
+      <span className="w-6 shrink-0 pt-0.5 font-mono text-xs tabular-nums text-muted-foreground">
         {String(index).padStart(2, "0")}
       </span>
       <div className="flex-1">

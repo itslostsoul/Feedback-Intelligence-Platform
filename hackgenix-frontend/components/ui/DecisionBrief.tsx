@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -418,7 +418,7 @@ export default function DecisionBrief({
                 <span className="font-mono">{issue.affected_feature}</span>
               </>
             )}
-            <span className="font-mono text-muted-foreground/60">#{issue.id.slice(0, 8)}</span>
+            <span className="font-mono text-muted-foreground">#{issue.id.slice(0, 8)}</span>
           </div>
         </div>
 
@@ -462,7 +462,7 @@ export default function DecisionBrief({
 
         {/* signals — real, per-issue signal data (never a fabricated blended score) */}
         <div ref={signalsSectionRef} className="mb-10">
-          <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-foreground/80">Signals</h3>
+          <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-foreground">Signals</h3>
 
           {signals.status === "ready" && (
             <>
@@ -554,7 +554,7 @@ export default function DecisionBrief({
         {/* decision — the synthesized headline this issue's evidence supports;
             "decision section" per the pipeline stepper / breadcrumb above */}
         <div ref={decisionSectionRef} className="mb-10 border-b border-border pb-10">
-          <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-foreground/80">Decision</h3>
+          <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-foreground">Decision</h3>
 
           {loadStage && <p className="text-sm text-muted-foreground">{loadStage}</p>}
 
@@ -570,7 +570,7 @@ export default function DecisionBrief({
               <p className="mb-4 max-w-[64ch] font-serif text-xl italic leading-snug text-foreground">
                 &ldquo;{brief.data.headline}&rdquo;
               </p>
-              <Badge variant="outline" className="rounded-full bg-surface-4 font-mono text-[11px] text-muted-foreground">
+              <Badge variant="outline" className="rounded-full bg-surface-4 font-mono text-xs text-muted-foreground">
                 Evidence: {brief.data.evidence_sufficiency.replace("_", " ")}
               </Badge>
             </div>
@@ -587,7 +587,7 @@ export default function DecisionBrief({
         {/* evidence — the supporting/counter/gap facts the decision above is
             grounded in; "evidence section" per the pipeline stepper / breadcrumb */}
         <div ref={evidenceSectionRef} className="mb-10">
-          <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-foreground/80">Evidence</h3>
+          <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-foreground">Evidence</h3>
 
           {!loadStage && brief.status === "ready" && (
             <div className="space-y-6">
@@ -623,7 +623,7 @@ export default function DecisionBrief({
               <p className="text-sm text-muted-foreground">Showing the underlying deterministic evidence instead.</p>
               {matchedEvidence ? (
                 <div className="space-y-5">
-                  <p className="font-mono text-[11px] text-muted-foreground">
+                  <p className="font-mono text-xs text-muted-foreground">
                     Matched via {matchedEvidence.match_method.replace(/_/g, " ")} · score{" "}
                     {matchedEvidence.match_score.toFixed(2)}
                   </p>
@@ -661,7 +661,7 @@ export default function DecisionBrief({
             <h4 className="text-sm font-medium uppercase tracking-wide text-foreground">Stability</h4>
             <div className="flex items-center gap-3">
               {stability.status === "ready" && (
-                <Badge variant="outline" className="rounded-full bg-surface-4 text-[11px] text-muted-foreground">
+                <Badge variant="outline" className="rounded-full bg-surface-4 text-xs text-muted-foreground">
                   {stability.data.status.replace(/_/g, " ")}
                 </Badge>
               )}
@@ -721,7 +721,7 @@ export default function DecisionBrief({
                         </span>
                         <Badge
                           variant="outline"
-                          className={`shrink-0 rounded-full text-[11px] uppercase ${STABILITY_STATUS_STYLE[change.status] ?? STABILITY_STATUS_STYLE.no_change}`}
+                          className={`shrink-0 rounded-full text-xs uppercase ${STABILITY_STATUS_STYLE[change.status] ?? STABILITY_STATUS_STYLE.no_change}`}
                         >
                           {change.status.replace(/_/g, " ")}
                         </Badge>
@@ -756,7 +756,7 @@ export default function DecisionBrief({
             <h4 className="text-sm font-medium uppercase tracking-wide text-foreground">Challenge this decision</h4>
             <div className="flex items-center gap-3">
               {challengeState.status === "ready" && (
-                <Badge variant="outline" className="rounded-full bg-surface-4 text-[11px] text-muted-foreground">
+                <Badge variant="outline" className="rounded-full bg-surface-4 text-xs text-muted-foreground">
                   {challengeState.data.status.replace(/_/g, " ")}
                 </Badge>
               )}
@@ -846,12 +846,12 @@ export default function DecisionBrief({
                 sources.map((source) => (
                   <li key={source.id} className="border-b border-border py-3">
                     <div className="mb-1.5 flex items-center gap-2 text-xs">
-                      <span className="font-mono text-muted-foreground/70">{source.id.slice(0, 8)}</span>
+                      <span className="font-mono text-muted-foreground">{source.id.slice(0, 8)}</span>
                       <span className="uppercase tracking-wide text-brass">
                         {sourceTypeLabel(source.source_type)} · {source.source}
                       </span>
                     </div>
-                    <p className="leading-relaxed text-foreground/90">&ldquo;{source.raw_text}&rdquo;</p>
+                    <p className="leading-relaxed text-foreground">&ldquo;{source.raw_text}&rdquo;</p>
                   </li>
                 ))
               )}
@@ -901,7 +901,7 @@ function TimelineNode({ label, time, active }: { label: string; time: string; ac
       />
       <div>
         <p className={`text-sm font-medium ${active ? "text-foreground" : "text-muted-foreground"}`}>{label}</p>
-        <p className="font-mono text-[11px] text-muted-foreground">{time}</p>
+        <p className="font-mono text-xs text-muted-foreground">{time}</p>
       </div>
     </div>
   );
@@ -957,7 +957,7 @@ function NarrativeSection({
               <button
                 key={id}
                 onClick={() => onToggleCitation(expandedCitation === id ? null : id)}
-                className="ml-1 rounded-full bg-surface-4 px-1.5 py-0.5 font-mono text-[10px] text-foreground hover:bg-surface-4/70"
+                className="ml-1 rounded-full bg-surface-4 px-1.5 py-0.5 font-mono text-xs text-foreground hover:bg-surface-4/70"
               >
                 [{citations[id]?.code ?? id}]
               </button>
@@ -970,7 +970,7 @@ function NarrativeSection({
                 return (
                   <div
                     key={id}
-                    className="mt-2 rounded-md border border-border/60 bg-background/60 p-3 font-mono text-xs text-foreground/80"
+                    className="mt-2 rounded-md border border-border/60 bg-background/60 p-3 font-mono text-xs text-foreground"
                   >
                     <p>{c.label}</p>
                     <p className="text-muted-foreground">
@@ -1003,7 +1003,7 @@ function FactList({
       <ul className="space-y-2 text-sm text-muted-foreground">
         {facts.map((fact) => (
           <li key={fact.code}>
-            <span className="mr-2 font-mono text-foreground/80">{fact.label}</span>
+            <span className="mr-2 font-mono text-foreground">{fact.label}</span>
             <span className="font-mono text-xs">
               {formatValue(fact.value)}
               {fact.threshold !== null && ` (threshold ${fact.threshold})`}

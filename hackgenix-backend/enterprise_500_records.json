@@ -1,0 +1,4502 @@
+[
+  {
+    "external_id": "TKT-10001",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-96",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Please escalate this.",
+    "created_at": "2026-09-26T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10002",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "enterprise",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Any ETA on a fix?",
+    "created_at": "2026-09-26T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10003",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-36",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. It's blocking our deployment.",
+    "created_at": "2026-09-26T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10004",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-59",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. It's blocking our deployment.",
+    "created_at": "2026-09-22T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10005",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-16",
+    "customer_tier": "startup",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. We noticed this starting yesterday.",
+    "created_at": "2026-09-23T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10006",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-12",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Any ETA on a fix?",
+    "created_at": "2026-09-27T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10007",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. It's blocking our deployment.",
+    "created_at": "2026-09-15T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10008",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-67",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. We noticed this starting yesterday.",
+    "created_at": "2026-09-20T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10009",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-38",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Please escalate this.",
+    "created_at": "2026-09-02T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10010",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10011",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-89",
+    "customer_tier": "free_tier",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Please escalate this.",
+    "created_at": "2026-09-26T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10012",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-60",
+    "customer_tier": "enterprise",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes.",
+    "created_at": "2026-09-25T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10013",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-27",
+    "customer_tier": "free_tier",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Attached is the HAR file.",
+    "created_at": "2026-09-27T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10014",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-17",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Support ticket #402 opened.",
+    "created_at": "2026-09-25T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10015",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-59",
+    "customer_tier": "free_tier",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint.",
+    "created_at": "2026-09-25T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10016",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-93",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Support ticket #402 opened.",
+    "created_at": "2026-09-27T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10017",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-34",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'.",
+    "created_at": "2026-09-14T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10018",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Any ETA on a fix?",
+    "created_at": "2026-09-25T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10019",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-29",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint.",
+    "created_at": "2026-09-25T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10020",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-53",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Support ticket #402 opened.",
+    "created_at": "2026-08-28T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10021",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-32",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. It's blocking our deployment.",
+    "created_at": "2026-09-25T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10022",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-40",
+    "customer_tier": "enterprise",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. We noticed this starting yesterday.",
+    "created_at": "2026-09-22T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10023",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-50",
+    "customer_tier": "enterprise",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Attached is the HAR file.",
+    "created_at": "2026-09-23T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10024",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-44",
+    "customer_tier": "startup",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Any ETA on a fix?",
+    "created_at": "2026-09-27T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10025",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-79",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Please escalate this.",
+    "created_at": "2026-09-15T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10026",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-52",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. It's blocking our deployment.",
+    "created_at": "2026-09-27T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10027",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-41",
+    "customer_tier": "startup",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Any ETA on a fix?",
+    "created_at": "2026-09-17T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10028",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-78",
+    "customer_tier": "free_tier",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Attached is the HAR file.",
+    "created_at": "2026-08-31T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10029",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now.",
+    "created_at": "2026-09-10T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10030",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-43",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Attached is the HAR file.",
+    "created_at": "2026-09-24T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10031",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-84",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Any ETA on a fix?",
+    "created_at": "2026-09-05T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10032",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Please escalate this.",
+    "created_at": "2026-09-12T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10033",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-31",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. We noticed this starting yesterday.",
+    "created_at": "2026-08-30T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10034",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "free_tier",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen.",
+    "created_at": "2026-09-27T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10035",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-94",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. It's blocking our deployment.",
+    "created_at": "2026-09-23T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10036",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-92",
+    "customer_tier": "free_tier",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Attached is the HAR file.",
+    "created_at": "2026-09-22T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10037",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-37",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. We noticed this starting yesterday.",
+    "created_at": "2026-09-25T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10038",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-49",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Any ETA on a fix?",
+    "created_at": "2026-09-26T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10039",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-44",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. It's blocking our deployment.",
+    "created_at": "2026-09-22T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10040",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-99",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Support ticket #402 opened.",
+    "created_at": "2026-09-13T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10041",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-20",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now.",
+    "created_at": "2026-09-24T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10042",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-30",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Any ETA on a fix?",
+    "created_at": "2026-09-26T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10043",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-83",
+    "customer_tier": "startup",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Any ETA on a fix?",
+    "created_at": "2026-09-27T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10044",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-29",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. It's blocking our deployment.",
+    "created_at": "2026-09-26T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10045",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-45",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. We noticed this starting yesterday.",
+    "created_at": "2026-09-23T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10046",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-17",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Any ETA on a fix?",
+    "created_at": "2026-09-25T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10047",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-92",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Please escalate this.",
+    "created_at": "2026-09-19T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10048",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-89",
+    "customer_tier": "startup",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Support ticket #402 opened.",
+    "created_at": "2026-09-22T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10049",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-69",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. It's blocking our deployment.",
+    "created_at": "2026-09-23T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10050",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-86",
+    "customer_tier": "startup",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Please escalate this.",
+    "created_at": "2026-09-25T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10051",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-91",
+    "customer_tier": "startup",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10052",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-93",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Attached is the HAR file.",
+    "created_at": "2026-09-26T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10053",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-64",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. It's blocking our deployment.",
+    "created_at": "2026-09-19T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10054",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-40",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Any ETA on a fix?",
+    "created_at": "2026-09-14T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10055",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-65",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Any ETA on a fix?",
+    "created_at": "2026-09-16T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10056",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-14",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. We noticed this starting yesterday.",
+    "created_at": "2026-09-23T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10057",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-20",
+    "customer_tier": "startup",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Attached is the HAR file.",
+    "created_at": "2026-09-09T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10058",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-93",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description.",
+    "created_at": "2026-09-24T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10059",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-25",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Attached is the HAR file.",
+    "created_at": "2026-09-27T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10060",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-31",
+    "customer_tier": "enterprise",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Attached is the HAR file.",
+    "created_at": "2026-08-28T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10061",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-23",
+    "customer_tier": "startup",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Any ETA on a fix?",
+    "created_at": "2026-09-24T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10062",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-80",
+    "customer_tier": "growth",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is.",
+    "created_at": "2026-09-13T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10063",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-94",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org.",
+    "created_at": "2026-09-15T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10064",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-34",
+    "customer_tier": "enterprise",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Attached is the HAR file.",
+    "created_at": "2026-09-12T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10065",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-99",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Any ETA on a fix?",
+    "created_at": "2026-09-21T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10066",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-96",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Any ETA on a fix?",
+    "created_at": "2026-09-25T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10067",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-58",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Please escalate this.",
+    "created_at": "2026-09-11T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10068",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-31",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Attached is the HAR file.",
+    "created_at": "2026-09-23T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10069",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-29",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. We noticed this starting yesterday.",
+    "created_at": "2026-09-22T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10070",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-58",
+    "customer_tier": "free_tier",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. It's blocking our deployment.",
+    "created_at": "2026-09-22T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10071",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-94",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Please escalate this.",
+    "created_at": "2026-09-20T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10072",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-97",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen.",
+    "created_at": "2026-09-27T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10073",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-52",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Any ETA on a fix?",
+    "created_at": "2026-09-23T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10074",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-81",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Any ETA on a fix?",
+    "created_at": "2026-09-27T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10075",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-15",
+    "customer_tier": "enterprise",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Please escalate this.",
+    "created_at": "2026-09-21T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10076",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-82",
+    "customer_tier": "startup",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Please escalate this.",
+    "created_at": "2026-09-13T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10077",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-19",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Support ticket #402 opened.",
+    "created_at": "2026-09-23T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10078",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-47",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long.",
+    "created_at": "2026-09-22T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10079",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. We noticed this starting yesterday.",
+    "created_at": "2026-09-01T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10080",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-44",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. It's blocking our deployment.",
+    "created_at": "2026-09-24T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10081",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-18",
+    "customer_tier": "startup",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. It's blocking our deployment.",
+    "created_at": "2026-09-13T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10082",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-97",
+    "customer_tier": "startup",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users.",
+    "created_at": "2026-09-24T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10083",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-15",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Please escalate this.",
+    "created_at": "2026-09-27T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10084",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-82",
+    "customer_tier": "growth",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is.",
+    "created_at": "2026-09-21T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10085",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-25",
+    "customer_tier": "startup",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Support ticket #402 opened.",
+    "created_at": "2026-09-03T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10086",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-43",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10087",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-44",
+    "customer_tier": "free_tier",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Any ETA on a fix?",
+    "created_at": "2026-09-26T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10088",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-86",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users.",
+    "created_at": "2026-09-23T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10089",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-69",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Support ticket #402 opened.",
+    "created_at": "2026-09-13T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10090",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-59",
+    "customer_tier": "enterprise",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Please escalate this.",
+    "created_at": "2026-09-22T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10091",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-77",
+    "customer_tier": "startup",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10092",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-26",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Support ticket #402 opened.",
+    "created_at": "2026-09-13T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10093",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-41",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Support ticket #402 opened.",
+    "created_at": "2026-09-25T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10094",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-35",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen.",
+    "created_at": "2026-09-23T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10095",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-45",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Attached is the HAR file.",
+    "created_at": "2026-09-22T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10096",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-21",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Support ticket #402 opened.",
+    "created_at": "2026-09-26T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10097",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-77",
+    "customer_tier": "startup",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. It's blocking our deployment.",
+    "created_at": "2026-09-14T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10098",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-68",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Any ETA on a fix?",
+    "created_at": "2026-09-24T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10099",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-84",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Attached is the HAR file.",
+    "created_at": "2026-09-25T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10100",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-95",
+    "customer_tier": "free_tier",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Any ETA on a fix?",
+    "created_at": "2026-09-22T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10101",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-18",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive.",
+    "created_at": "2026-09-24T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10102",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Support ticket #402 opened.",
+    "created_at": "2026-08-30T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10103",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-53",
+    "customer_tier": "free_tier",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Please escalate this.",
+    "created_at": "2026-09-20T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10104",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-98",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Support ticket #402 opened.",
+    "created_at": "2026-09-25T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10105",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-34",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'.",
+    "created_at": "2026-08-31T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10106",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-10",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Any ETA on a fix?",
+    "created_at": "2026-09-14T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10107",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-79",
+    "customer_tier": "startup",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Any ETA on a fix?",
+    "created_at": "2026-09-24T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10108",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Support ticket #402 opened.",
+    "created_at": "2026-09-24T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10109",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-25",
+    "customer_tier": "startup",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10110",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-15",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. It's blocking our deployment.",
+    "created_at": "2026-09-24T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10111",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-65",
+    "customer_tier": "free_tier",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Attached is the HAR file.",
+    "created_at": "2026-09-26T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10112",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-47",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Support ticket #402 opened.",
+    "created_at": "2026-09-23T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10113",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-64",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Please escalate this.",
+    "created_at": "2026-09-23T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10114",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-10",
+    "customer_tier": "enterprise",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Any ETA on a fix?",
+    "created_at": "2026-09-22T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10115",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-99",
+    "customer_tier": "enterprise",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10116",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-74",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. It's blocking our deployment.",
+    "created_at": "2026-09-16T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10117",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-60",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Attached is the HAR file.",
+    "created_at": "2026-09-21T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10118",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-65",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Please escalate this.",
+    "created_at": "2026-09-24T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10119",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-42",
+    "customer_tier": "free_tier",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. We noticed this starting yesterday.",
+    "created_at": "2026-09-21T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10120",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-80",
+    "customer_tier": "free_tier",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Attached is the HAR file.",
+    "created_at": "2026-09-25T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10121",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-65",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. It's blocking our deployment.",
+    "created_at": "2026-09-24T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10122",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-25",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Please escalate this.",
+    "created_at": "2026-09-19T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10123",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-58",
+    "customer_tier": "startup",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Support ticket #402 opened.",
+    "created_at": "2026-09-22T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10124",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-83",
+    "customer_tier": "enterprise",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Attached is the HAR file.",
+    "created_at": "2026-09-16T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10125",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-99",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Support ticket #402 opened.",
+    "created_at": "2026-09-15T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10126",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-18",
+    "customer_tier": "enterprise",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Any ETA on a fix?",
+    "created_at": "2026-09-06T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10127",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-49",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. It's blocking our deployment.",
+    "created_at": "2026-09-25T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10128",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-57",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive.",
+    "created_at": "2026-09-19T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10129",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-34",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. It's blocking our deployment.",
+    "created_at": "2026-09-12T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10130",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-65",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Please escalate this.",
+    "created_at": "2026-09-23T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10131",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-29",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. We noticed this starting yesterday.",
+    "created_at": "2026-09-27T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10132",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-40",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. It's blocking our deployment.",
+    "created_at": "2026-09-25T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10133",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-75",
+    "customer_tier": "startup",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Any ETA on a fix?",
+    "created_at": "2026-08-29T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10134",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-71",
+    "customer_tier": "startup",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Any ETA on a fix?",
+    "created_at": "2026-09-22T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10135",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-21",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Please escalate this.",
+    "created_at": "2026-09-15T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10136",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-56",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys.",
+    "created_at": "2026-09-18T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10137",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Please escalate this.",
+    "created_at": "2026-09-27T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10138",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-32",
+    "customer_tier": "enterprise",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Attached is the HAR file.",
+    "created_at": "2026-09-14T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10139",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-60",
+    "customer_tier": "startup",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Support ticket #402 opened.",
+    "created_at": "2026-09-18T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10140",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-88",
+    "customer_tier": "enterprise",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Support ticket #402 opened.",
+    "created_at": "2026-09-23T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10141",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-34",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Please escalate this.",
+    "created_at": "2026-09-24T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10142",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-56",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Support ticket #402 opened.",
+    "created_at": "2026-09-25T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10143",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-44",
+    "customer_tier": "enterprise",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'.",
+    "created_at": "2026-09-07T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10144",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-95",
+    "customer_tier": "enterprise",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract.",
+    "created_at": "2026-09-19T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10145",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-22",
+    "customer_tier": "free_tier",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Attached is the HAR file.",
+    "created_at": "2026-09-14T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10146",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-49",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10147",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-74",
+    "customer_tier": "enterprise",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. It's blocking our deployment.",
+    "created_at": "2026-09-26T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10148",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-48",
+    "customer_tier": "enterprise",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. It's blocking our deployment.",
+    "created_at": "2026-09-12T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10149",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-15",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Support ticket #402 opened.",
+    "created_at": "2026-09-14T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10150",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-34",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Support ticket #402 opened.",
+    "created_at": "2026-09-16T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10151",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-84",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys.",
+    "created_at": "2026-09-07T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10152",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-45",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. We noticed this starting yesterday.",
+    "created_at": "2026-09-05T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10153",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-85",
+    "customer_tier": "growth",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is.",
+    "created_at": "2026-09-12T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10154",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-79",
+    "customer_tier": "startup",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description.",
+    "created_at": "2026-09-22T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10155",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-47",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. We noticed this starting yesterday.",
+    "created_at": "2026-08-30T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10156",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-58",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Please escalate this.",
+    "created_at": "2026-09-22T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10157",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-25",
+    "customer_tier": "enterprise",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Any ETA on a fix?",
+    "created_at": "2026-09-06T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10158",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-93",
+    "customer_tier": "enterprise",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Please escalate this.",
+    "created_at": "2026-09-18T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10159",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-53",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. We noticed this starting yesterday.",
+    "created_at": "2026-09-03T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10160",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Attached is the HAR file.",
+    "created_at": "2026-09-12T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10161",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-53",
+    "customer_tier": "startup",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Support ticket #402 opened.",
+    "created_at": "2026-09-22T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10162",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-54",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. It's blocking our deployment.",
+    "created_at": "2026-09-22T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10163",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Please escalate this.",
+    "created_at": "2026-09-15T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10164",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-69",
+    "customer_tier": "enterprise",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Any ETA on a fix?",
+    "created_at": "2026-09-26T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10165",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-48",
+    "customer_tier": "enterprise",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. We noticed this starting yesterday.",
+    "created_at": "2026-09-25T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10166",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-18",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. We noticed this starting yesterday.",
+    "created_at": "2026-09-20T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10167",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-41",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Attached is the HAR file.",
+    "created_at": "2026-09-22T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10168",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-60",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys.",
+    "created_at": "2026-09-10T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10169",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. It's blocking our deployment.",
+    "created_at": "2026-09-23T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10170",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-49",
+    "customer_tier": "startup",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. We noticed this starting yesterday.",
+    "created_at": "2026-09-15T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10171",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-57",
+    "customer_tier": "enterprise",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Please escalate this.",
+    "created_at": "2026-09-18T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10172",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-42",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Attached is the HAR file.",
+    "created_at": "2026-09-26T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10173",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-67",
+    "customer_tier": "startup",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. It's blocking our deployment.",
+    "created_at": "2026-09-27T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10174",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "enterprise",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. It's blocking our deployment.",
+    "created_at": "2026-09-25T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10175",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-85",
+    "customer_tier": "enterprise",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Support ticket #402 opened.",
+    "created_at": "2026-09-27T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10176",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-77",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users.",
+    "created_at": "2026-09-06T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10177",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-62",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Support ticket #402 opened.",
+    "created_at": "2026-09-18T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10178",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-32",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Any ETA on a fix?",
+    "created_at": "2026-09-17T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10179",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-38",
+    "customer_tier": "startup",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Attached is the HAR file.",
+    "created_at": "2026-08-30T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10180",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-16",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long.",
+    "created_at": "2026-09-26T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10181",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-30",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint.",
+    "created_at": "2026-09-26T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10182",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-22",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes.",
+    "created_at": "2026-09-22T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10183",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-91",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Support ticket #402 opened.",
+    "created_at": "2026-09-15T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10184",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-46",
+    "customer_tier": "enterprise",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Support ticket #402 opened.",
+    "created_at": "2026-09-20T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10185",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "enterprise",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Any ETA on a fix?",
+    "created_at": "2026-08-28T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10186",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-23",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Please escalate this.",
+    "created_at": "2026-09-23T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10187",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-36",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Please escalate this.",
+    "created_at": "2026-09-12T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10188",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-87",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Please escalate this.",
+    "created_at": "2026-09-20T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10189",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-97",
+    "customer_tier": "startup",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Support ticket #402 opened.",
+    "created_at": "2026-09-17T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10190",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-44",
+    "customer_tier": "startup",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Please escalate this.",
+    "created_at": "2026-09-23T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10191",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-48",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Support ticket #402 opened.",
+    "created_at": "2026-09-23T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10192",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "startup",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Attached is the HAR file.",
+    "created_at": "2026-09-26T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10193",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-22",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Support ticket #402 opened.",
+    "created_at": "2026-09-24T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10194",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-83",
+    "customer_tier": "startup",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Attached is the HAR file.",
+    "created_at": "2026-09-22T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10195",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-54",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Support ticket #402 opened.",
+    "created_at": "2026-09-23T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10196",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-71",
+    "customer_tier": "startup",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint.",
+    "created_at": "2026-09-14T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10197",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-55",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Please escalate this.",
+    "created_at": "2026-09-25T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10198",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-16",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Support ticket #402 opened.",
+    "created_at": "2026-09-22T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10199",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-14",
+    "customer_tier": "enterprise",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Any ETA on a fix?",
+    "created_at": "2026-09-12T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10200",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-53",
+    "customer_tier": "enterprise",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Attached is the HAR file.",
+    "created_at": "2026-09-24T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10201",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-59",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Attached is the HAR file.",
+    "created_at": "2026-09-27T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10202",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-93",
+    "customer_tier": "startup",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Support ticket #402 opened.",
+    "created_at": "2026-09-25T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10203",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-88",
+    "customer_tier": "free_tier",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Any ETA on a fix?",
+    "created_at": "2026-09-26T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10204",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-52",
+    "customer_tier": "growth",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. It's blocking our deployment.",
+    "created_at": "2026-09-20T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10205",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-11",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description.",
+    "created_at": "2026-09-17T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10206",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-62",
+    "customer_tier": "enterprise",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Please escalate this.",
+    "created_at": "2026-09-24T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10207",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-89",
+    "customer_tier": "startup",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Please escalate this.",
+    "created_at": "2026-09-24T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10208",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-40",
+    "customer_tier": "startup",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10209",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-17",
+    "customer_tier": "startup",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Please escalate this.",
+    "created_at": "2026-09-20T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10210",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-93",
+    "customer_tier": "enterprise",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. It's blocking our deployment.",
+    "created_at": "2026-09-27T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10211",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-52",
+    "customer_tier": "free_tier",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Attached is the HAR file.",
+    "created_at": "2026-09-25T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10212",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-86",
+    "customer_tier": "growth",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Attached is the HAR file.",
+    "created_at": "2026-09-19T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10213",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-89",
+    "customer_tier": "startup",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Any ETA on a fix?",
+    "created_at": "2026-09-14T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10214",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "startup",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Support ticket #402 opened.",
+    "created_at": "2026-09-16T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10215",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-37",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Attached is the HAR file.",
+    "created_at": "2026-09-17T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10216",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-91",
+    "customer_tier": "enterprise",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Please escalate this.",
+    "created_at": "2026-09-16T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10217",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-10",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10218",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-43",
+    "customer_tier": "enterprise",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. It's blocking our deployment.",
+    "created_at": "2026-09-17T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10219",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-53",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Support ticket #402 opened.",
+    "created_at": "2026-08-29T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10220",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-88",
+    "customer_tier": "free_tier",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. We noticed this starting yesterday.",
+    "created_at": "2026-08-28T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10221",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-67",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. It's blocking our deployment.",
+    "created_at": "2026-09-23T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10222",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "enterprise",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Support ticket #402 opened.",
+    "created_at": "2026-09-24T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10223",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Support ticket #402 opened.",
+    "created_at": "2026-09-21T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10224",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-34",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Any ETA on a fix?",
+    "created_at": "2026-09-25T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10225",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-50",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. It's blocking our deployment.",
+    "created_at": "2026-09-03T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10226",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-24",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. We noticed this starting yesterday.",
+    "created_at": "2026-09-23T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10227",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-96",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Any ETA on a fix?",
+    "created_at": "2026-09-22T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10228",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-11",
+    "customer_tier": "enterprise",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long.",
+    "created_at": "2026-09-24T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10229",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-87",
+    "customer_tier": "enterprise",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Attached is the HAR file.",
+    "created_at": "2026-09-27T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10230",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-14",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Attached is the HAR file.",
+    "created_at": "2026-09-22T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10231",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-96",
+    "customer_tier": "enterprise",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. We noticed this starting yesterday.",
+    "created_at": "2026-09-14T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10232",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-66",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Please escalate this.",
+    "created_at": "2026-09-26T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10233",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-95",
+    "customer_tier": "enterprise",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Any ETA on a fix?",
+    "created_at": "2026-09-21T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10234",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-23",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. We noticed this starting yesterday.",
+    "created_at": "2026-09-22T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10235",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-82",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Support ticket #402 opened.",
+    "created_at": "2026-09-27T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10236",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-52",
+    "customer_tier": "startup",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys.",
+    "created_at": "2026-09-20T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10237",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-64",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint.",
+    "created_at": "2026-09-18T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10238",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-94",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. It's blocking our deployment.",
+    "created_at": "2026-09-26T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10239",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-77",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys.",
+    "created_at": "2026-09-17T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10240",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-72",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Support ticket #402 opened.",
+    "created_at": "2026-09-21T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10241",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-75",
+    "customer_tier": "startup",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Attached is the HAR file.",
+    "created_at": "2026-09-26T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10242",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "free_tier",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Attached is the HAR file.",
+    "created_at": "2026-09-26T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10243",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-46",
+    "customer_tier": "enterprise",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes.",
+    "created_at": "2026-09-17T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10244",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-83",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. We noticed this starting yesterday.",
+    "created_at": "2026-09-25T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10245",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-41",
+    "customer_tier": "enterprise",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now.",
+    "created_at": "2026-09-14T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10246",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-21",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Attached is the HAR file.",
+    "created_at": "2026-09-23T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10247",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-85",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Please escalate this.",
+    "created_at": "2026-09-09T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10248",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-21",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Any ETA on a fix?",
+    "created_at": "2026-09-20T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10249",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-97",
+    "customer_tier": "enterprise",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. We noticed this starting yesterday.",
+    "created_at": "2026-09-17T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10250",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-28",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Please escalate this.",
+    "created_at": "2026-09-08T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10251",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-41",
+    "customer_tier": "free_tier",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Attached is the HAR file.",
+    "created_at": "2026-09-24T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10252",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-86",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Attached is the HAR file.",
+    "created_at": "2026-09-21T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10253",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-56",
+    "customer_tier": "enterprise",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Attached is the HAR file.",
+    "created_at": "2026-09-18T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10254",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-12",
+    "customer_tier": "enterprise",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Any ETA on a fix?",
+    "created_at": "2026-09-24T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10255",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-31",
+    "customer_tier": "enterprise",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Support ticket #402 opened.",
+    "created_at": "2026-09-24T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10256",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-22",
+    "customer_tier": "startup",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Please escalate this.",
+    "created_at": "2026-09-26T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10257",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-99",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Please escalate this.",
+    "created_at": "2026-09-20T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10258",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-95",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Please escalate this.",
+    "created_at": "2026-09-05T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10259",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-68",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Please escalate this.",
+    "created_at": "2026-09-22T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10260",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-34",
+    "customer_tier": "free_tier",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Please escalate this.",
+    "created_at": "2026-09-27T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10261",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-45",
+    "customer_tier": "free_tier",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. It's blocking our deployment.",
+    "created_at": "2026-09-13T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10262",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-75",
+    "customer_tier": "free_tier",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Support ticket #402 opened.",
+    "created_at": "2026-09-23T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10263",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-77",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. It's blocking our deployment.",
+    "created_at": "2026-09-25T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10264",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-23",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. It's blocking our deployment.",
+    "created_at": "2026-09-27T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10265",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-21",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. It's blocking our deployment.",
+    "created_at": "2026-09-26T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10266",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-82",
+    "customer_tier": "startup",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Any ETA on a fix?",
+    "created_at": "2026-09-27T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10267",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-14",
+    "customer_tier": "enterprise",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Attached is the HAR file.",
+    "created_at": "2026-09-24T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10268",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-53",
+    "customer_tier": "free_tier",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. We noticed this starting yesterday.",
+    "created_at": "2026-09-23T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10269",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Support ticket #402 opened.",
+    "created_at": "2026-09-20T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10270",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-92",
+    "customer_tier": "enterprise",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Please escalate this.",
+    "created_at": "2026-09-26T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10271",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-69",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. We noticed this starting yesterday.",
+    "created_at": "2026-09-27T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10272",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-83",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Support ticket #402 opened.",
+    "created_at": "2026-09-23T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10273",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-48",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'.",
+    "created_at": "2026-09-27T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10274",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-24",
+    "customer_tier": "enterprise",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Attached is the HAR file.",
+    "created_at": "2026-09-25T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10275",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-65",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive.",
+    "created_at": "2026-09-23T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10276",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-12",
+    "customer_tier": "free_tier",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. It's blocking our deployment.",
+    "created_at": "2026-09-13T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10277",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. We noticed this starting yesterday.",
+    "created_at": "2026-09-12T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10278",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-29",
+    "customer_tier": "startup",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. We noticed this starting yesterday.",
+    "created_at": "2026-09-27T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10279",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-90",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Attached is the HAR file.",
+    "created_at": "2026-08-30T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10280",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-45",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. It's blocking our deployment.",
+    "created_at": "2026-09-27T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10281",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-63",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. We noticed this starting yesterday.",
+    "created_at": "2026-09-23T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10282",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-16",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Attached is the HAR file.",
+    "created_at": "2026-09-11T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10283",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-33",
+    "customer_tier": "startup",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. It's blocking our deployment.",
+    "created_at": "2026-09-27T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10284",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-78",
+    "customer_tier": "enterprise",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Support ticket #402 opened.",
+    "created_at": "2026-09-27T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10285",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-26",
+    "customer_tier": "enterprise",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. It's blocking our deployment.",
+    "created_at": "2026-09-26T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10286",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-40",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes.",
+    "created_at": "2026-09-26T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10287",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-72",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long.",
+    "created_at": "2026-09-21T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10288",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-23",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. We noticed this starting yesterday.",
+    "created_at": "2026-08-29T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10289",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-88",
+    "customer_tier": "enterprise",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now.",
+    "created_at": "2026-09-22T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10290",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-59",
+    "customer_tier": "enterprise",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Please escalate this.",
+    "created_at": "2026-09-15T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10291",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. It's blocking our deployment.",
+    "created_at": "2026-09-26T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10292",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-49",
+    "customer_tier": "startup",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys.",
+    "created_at": "2026-09-18T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10293",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-79",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Any ETA on a fix?",
+    "created_at": "2026-09-24T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10294",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-47",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org.",
+    "created_at": "2026-09-23T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10295",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-53",
+    "customer_tier": "startup",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Attached is the HAR file.",
+    "created_at": "2026-09-23T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10296",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-74",
+    "customer_tier": "enterprise",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Please escalate this.",
+    "created_at": "2026-09-16T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10297",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-30",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Please escalate this.",
+    "created_at": "2026-09-15T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10298",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-25",
+    "customer_tier": "startup",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Attached is the HAR file.",
+    "created_at": "2026-09-14T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10299",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-95",
+    "customer_tier": "free_tier",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Support ticket #402 opened.",
+    "created_at": "2026-09-22T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10300",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-94",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. It's blocking our deployment.",
+    "created_at": "2026-09-15T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10301",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-90",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Any ETA on a fix?",
+    "created_at": "2026-09-16T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10302",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-84",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Attached is the HAR file.",
+    "created_at": "2026-09-16T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10303",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-87",
+    "customer_tier": "enterprise",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Please escalate this.",
+    "created_at": "2026-09-26T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10304",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-94",
+    "customer_tier": "enterprise",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. We noticed this starting yesterday.",
+    "created_at": "2026-09-21T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10305",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-60",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Any ETA on a fix?",
+    "created_at": "2026-09-16T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10306",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-68",
+    "customer_tier": "startup",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10307",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-42",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. We noticed this starting yesterday.",
+    "created_at": "2026-09-10T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10308",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. We noticed this starting yesterday.",
+    "created_at": "2026-09-23T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10309",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-31",
+    "customer_tier": "startup",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Please escalate this.",
+    "created_at": "2026-09-20T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10310",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-20",
+    "customer_tier": "free_tier",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Support ticket #402 opened.",
+    "created_at": "2026-09-08T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10311",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-12",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. We noticed this starting yesterday.",
+    "created_at": "2026-09-21T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10312",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-87",
+    "customer_tier": "enterprise",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. We noticed this starting yesterday.",
+    "created_at": "2026-09-21T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10313",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-47",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long.",
+    "created_at": "2026-09-16T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10314",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-84",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Support ticket #402 opened.",
+    "created_at": "2026-09-21T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10315",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-44",
+    "customer_tier": "startup",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10316",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-35",
+    "customer_tier": "free_tier",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Please escalate this.",
+    "created_at": "2026-09-22T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10317",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-97",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. We noticed this starting yesterday.",
+    "created_at": "2026-09-13T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10318",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-84",
+    "customer_tier": "enterprise",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Attached is the HAR file.",
+    "created_at": "2026-09-23T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10319",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-74",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Any ETA on a fix?",
+    "created_at": "2026-09-26T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10320",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-75",
+    "customer_tier": "startup",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Support ticket #402 opened.",
+    "created_at": "2026-09-24T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10321",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-58",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Any ETA on a fix?",
+    "created_at": "2026-09-14T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10322",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-69",
+    "customer_tier": "free_tier",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Support ticket #402 opened.",
+    "created_at": "2026-09-24T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10323",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-89",
+    "customer_tier": "growth",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Support ticket #402 opened.",
+    "created_at": "2026-09-18T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10324",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-20",
+    "customer_tier": "enterprise",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Please escalate this.",
+    "created_at": "2026-09-07T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10325",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-63",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10326",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-78",
+    "customer_tier": "enterprise",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Support ticket #402 opened.",
+    "created_at": "2026-09-27T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10327",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-42",
+    "customer_tier": "startup",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Attached is the HAR file.",
+    "created_at": "2026-09-24T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10328",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-87",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Please escalate this.",
+    "created_at": "2026-09-27T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10329",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Please escalate this.",
+    "created_at": "2026-09-26T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10330",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-98",
+    "customer_tier": "enterprise",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org.",
+    "created_at": "2026-09-13T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10331",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-70",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Attached is the HAR file.",
+    "created_at": "2026-09-15T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10332",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-47",
+    "customer_tier": "startup",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Please escalate this.",
+    "created_at": "2026-09-24T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10333",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-21",
+    "customer_tier": "free_tier",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes.",
+    "created_at": "2026-09-26T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10334",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-78",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. It's blocking our deployment.",
+    "created_at": "2026-09-11T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10335",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-95",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Please escalate this.",
+    "created_at": "2026-09-02T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10336",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-64",
+    "customer_tier": "growth",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Please escalate this.",
+    "created_at": "2026-09-14T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10337",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-30",
+    "customer_tier": "enterprise",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background.",
+    "created_at": "2026-09-26T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10338",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-59",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Please escalate this.",
+    "created_at": "2026-09-21T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10339",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-83",
+    "customer_tier": "enterprise",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. It's blocking our deployment.",
+    "created_at": "2026-09-13T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10340",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-79",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically.",
+    "created_at": "2026-09-25T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10341",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-17",
+    "customer_tier": "startup",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. We noticed this starting yesterday.",
+    "created_at": "2026-09-17T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10342",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-40",
+    "customer_tier": "enterprise",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Any ETA on a fix?",
+    "created_at": "2026-08-30T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10343",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-16",
+    "customer_tier": "free_tier",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10344",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-61",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys.",
+    "created_at": "2026-09-22T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10345",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-64",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Any ETA on a fix?",
+    "created_at": "2026-09-24T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10346",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-95",
+    "customer_tier": "enterprise",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Please escalate this.",
+    "created_at": "2026-09-16T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10347",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-30",
+    "customer_tier": "enterprise",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. It's blocking our deployment.",
+    "created_at": "2026-09-13T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10348",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-61",
+    "customer_tier": "free_tier",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys.",
+    "created_at": "2026-09-19T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10349",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-34",
+    "customer_tier": "free_tier",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Attached is the HAR file.",
+    "created_at": "2026-09-21T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10350",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-81",
+    "customer_tier": "startup",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. It's blocking our deployment.",
+    "created_at": "2026-09-22T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10351",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-32",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Attached is the HAR file.",
+    "created_at": "2026-09-26T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10352",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-50",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Any ETA on a fix?",
+    "created_at": "2026-09-12T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10353",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-18",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10354",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-62",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Please escalate this.",
+    "created_at": "2026-09-21T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10355",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-26",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long.",
+    "created_at": "2026-09-23T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10356",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-63",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Support ticket #402 opened.",
+    "created_at": "2026-09-27T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10357",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-46",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Support ticket #402 opened.",
+    "created_at": "2026-09-25T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10358",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-52",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Please escalate this.",
+    "created_at": "2026-09-22T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10359",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-32",
+    "customer_tier": "startup",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Any ETA on a fix?",
+    "created_at": "2026-09-23T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10360",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-56",
+    "customer_tier": "startup",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Support ticket #402 opened.",
+    "created_at": "2026-09-25T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10361",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-96",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. We noticed this starting yesterday.",
+    "created_at": "2026-09-17T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10362",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-93",
+    "customer_tier": "enterprise",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Please escalate this.",
+    "created_at": "2026-09-12T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10363",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-55",
+    "customer_tier": "free_tier",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys.",
+    "created_at": "2026-09-13T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10364",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-97",
+    "customer_tier": "enterprise",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Any ETA on a fix?",
+    "created_at": "2026-09-26T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10365",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-13",
+    "customer_tier": "startup",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. It's blocking our deployment.",
+    "created_at": "2026-09-10T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10366",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-27",
+    "customer_tier": "startup",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Any ETA on a fix?",
+    "created_at": "2026-09-17T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10367",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-63",
+    "customer_tier": "startup",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. Attached is the HAR file.",
+    "created_at": "2026-09-22T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10368",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-60",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. We noticed this starting yesterday.",
+    "created_at": "2026-09-14T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10369",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-93",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Any ETA on a fix?",
+    "created_at": "2026-09-23T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10370",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-79",
+    "customer_tier": "startup",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Please escalate this.",
+    "created_at": "2026-09-03T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10371",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-43",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Attached is the HAR file.",
+    "created_at": "2026-09-26T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10372",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-55",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. We noticed this starting yesterday.",
+    "created_at": "2026-09-22T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10373",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-72",
+    "customer_tier": "free_tier",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Any ETA on a fix?",
+    "created_at": "2026-09-21T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10374",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-95",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Support ticket #402 opened.",
+    "created_at": "2026-09-25T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10375",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-98",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Any ETA on a fix?",
+    "created_at": "2026-09-19T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10376",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-60",
+    "customer_tier": "startup",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Attached is the HAR file.",
+    "created_at": "2026-09-27T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10377",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-63",
+    "customer_tier": "startup",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Support ticket #402 opened.",
+    "created_at": "2026-09-23T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10378",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-43",
+    "customer_tier": "growth",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Attached is the HAR file.",
+    "created_at": "2026-09-24T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10379",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-78",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. We noticed this starting yesterday.",
+    "created_at": "2026-09-07T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10380",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-84",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Support ticket #402 opened.",
+    "created_at": "2026-09-25T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10381",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-38",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. It's blocking our deployment.",
+    "created_at": "2026-09-17T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10382",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-14",
+    "customer_tier": "startup",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Please escalate this.",
+    "created_at": "2026-09-19T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10383",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-92",
+    "customer_tier": "startup",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. It's blocking our deployment.",
+    "created_at": "2026-09-24T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10384",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-26",
+    "customer_tier": "free_tier",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. We noticed this starting yesterday.",
+    "created_at": "2026-09-13T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10385",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-29",
+    "customer_tier": "startup",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Any ETA on a fix?",
+    "created_at": "2026-09-17T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10386",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-29",
+    "customer_tier": "free_tier",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Please escalate this.",
+    "created_at": "2026-09-19T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10387",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-99",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. It's blocking our deployment.",
+    "created_at": "2026-09-22T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10388",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-57",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Support ticket #402 opened.",
+    "created_at": "2026-09-24T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10389",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-79",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint.",
+    "created_at": "2026-09-25T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10390",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-31",
+    "customer_tier": "enterprise",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Support ticket #402 opened.",
+    "created_at": "2026-09-13T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10391",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-66",
+    "customer_tier": "free_tier",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Please escalate this.",
+    "created_at": "2026-09-19T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10392",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-76",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Support ticket #402 opened.",
+    "created_at": "2026-09-16T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10393",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-65",
+    "customer_tier": "enterprise",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Please escalate this.",
+    "created_at": "2026-09-25T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10394",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-77",
+    "customer_tier": "enterprise",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users.",
+    "created_at": "2026-09-27T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10395",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-29",
+    "customer_tier": "free_tier",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Please escalate this.",
+    "created_at": "2026-09-15T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10396",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-50",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Support ticket #402 opened.",
+    "created_at": "2026-09-06T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10397",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-56",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Please escalate this.",
+    "created_at": "2026-09-26T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10398",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-63",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Please escalate this.",
+    "created_at": "2026-09-24T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10399",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-24",
+    "customer_tier": "enterprise",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Any ETA on a fix?",
+    "created_at": "2026-09-13T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10400",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-22",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Any ETA on a fix?",
+    "created_at": "2026-09-23T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10401",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-55",
+    "customer_tier": "free_tier",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. It's blocking our deployment.",
+    "created_at": "2026-08-31T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10402",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-77",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Please escalate this.",
+    "created_at": "2026-09-07T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10403",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-40",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Support ticket #402 opened.",
+    "created_at": "2026-09-20T05:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10404",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-53",
+    "customer_tier": "enterprise",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Support ticket #402 opened.",
+    "created_at": "2026-09-23T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10405",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-82",
+    "customer_tier": "enterprise",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is.",
+    "created_at": "2026-09-26T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10406",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-98",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets.",
+    "created_at": "2026-09-23T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10407",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. It's blocking our deployment.",
+    "created_at": "2026-09-25T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10408",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-91",
+    "customer_tier": "startup",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long.",
+    "created_at": "2026-09-23T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10409",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Any ETA on a fix?",
+    "created_at": "2026-09-27T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10410",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-65",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Support ticket #402 opened.",
+    "created_at": "2026-09-27T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10411",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-77",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. It's blocking our deployment.",
+    "created_at": "2026-09-12T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10412",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-61",
+    "customer_tier": "free_tier",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Any ETA on a fix?",
+    "created_at": "2026-09-23T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10413",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-50",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys.",
+    "created_at": "2026-09-24T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10414",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-23",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Please escalate this.",
+    "created_at": "2026-09-24T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10415",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-56",
+    "customer_tier": "enterprise",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive.",
+    "created_at": "2026-09-22T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10416",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-10",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. We noticed this starting yesterday.",
+    "created_at": "2026-09-25T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10417",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-17",
+    "customer_tier": "startup",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. We noticed this starting yesterday.",
+    "created_at": "2026-09-21T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10418",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-93",
+    "customer_tier": "enterprise",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically.",
+    "created_at": "2026-09-26T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10419",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-60",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys.",
+    "created_at": "2026-09-25T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10420",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-15",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys.",
+    "created_at": "2026-09-26T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10421",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Any ETA on a fix?",
+    "created_at": "2026-09-26T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10422",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-82",
+    "customer_tier": "startup",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background.",
+    "created_at": "2026-09-24T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10423",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-75",
+    "customer_tier": "free_tier",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Attached is the HAR file.",
+    "created_at": "2026-09-20T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10424",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-52",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. It's blocking our deployment.",
+    "created_at": "2026-09-22T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10425",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "startup",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10426",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-68",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. We noticed this starting yesterday.",
+    "created_at": "2026-08-31T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10427",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-81",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. Attached is the HAR file.",
+    "created_at": "2026-09-22T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10428",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-41",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. It's blocking our deployment.",
+    "created_at": "2026-09-26T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10429",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-23",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. It's blocking our deployment.",
+    "created_at": "2026-09-22T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10430",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-22",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Support ticket #402 opened.",
+    "created_at": "2026-09-26T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10431",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-74",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10432",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-36",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10433",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-42",
+    "customer_tier": "startup",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets.",
+    "created_at": "2026-09-25T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10434",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-65",
+    "customer_tier": "startup",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. We noticed this starting yesterday.",
+    "created_at": "2026-09-27T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10435",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-13",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract.",
+    "created_at": "2026-09-24T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10436",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Any ETA on a fix?",
+    "created_at": "2026-09-26T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10437",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-59",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background.",
+    "created_at": "2026-09-25T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10438",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-55",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Please escalate this.",
+    "created_at": "2026-08-31T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10439",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-67",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. It's blocking our deployment.",
+    "created_at": "2026-09-16T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10440",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-54",
+    "customer_tier": "free_tier",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. It's blocking our deployment.",
+    "created_at": "2026-09-22T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10441",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-97",
+    "customer_tier": "growth",
+    "raw_text": "The Salesforce sync is duplicating contacts. We have 400 messy records to clean up now. We noticed this starting yesterday.",
+    "created_at": "2026-09-21T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10442",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-24",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Please escalate this.",
+    "created_at": "2026-09-16T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10443",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "free_tier",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Attached is the HAR file.",
+    "created_at": "2026-09-24T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10444",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-28",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. Support ticket #402 opened.",
+    "created_at": "2026-09-22T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10445",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-35",
+    "customer_tier": "enterprise",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Support ticket #402 opened.",
+    "created_at": "2026-09-26T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10446",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. We noticed this starting yesterday.",
+    "created_at": "2026-08-27T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10447",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-92",
+    "customer_tier": "enterprise",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes.",
+    "created_at": "2026-09-11T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10448",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-68",
+    "customer_tier": "startup",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. It's blocking our deployment.",
+    "created_at": "2026-09-25T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10449",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-32",
+    "customer_tier": "enterprise",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. Attached is the HAR file.",
+    "created_at": "2026-09-24T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10450",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-14",
+    "customer_tier": "startup",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys.",
+    "created_at": "2026-09-23T13:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10451",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-76",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. We noticed this starting yesterday.",
+    "created_at": "2026-09-22T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10452",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-32",
+    "customer_tier": "enterprise",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Attached is the HAR file.",
+    "created_at": "2026-09-26T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10453",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-47",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. We noticed this starting yesterday.",
+    "created_at": "2026-09-25T00:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10454",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-27",
+    "customer_tier": "enterprise",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is.",
+    "created_at": "2026-09-23T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10455",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-84",
+    "customer_tier": "startup",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Any ETA on a fix?",
+    "created_at": "2026-09-25T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10456",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-31",
+    "customer_tier": "growth",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. Support ticket #402 opened.",
+    "created_at": "2026-09-06T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10457",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-94",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. It's blocking our deployment.",
+    "created_at": "2026-09-21T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10458",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-90",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. We noticed this starting yesterday.",
+    "created_at": "2026-09-23T09:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10459",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-39",
+    "customer_tier": "startup",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. Any ETA on a fix?",
+    "created_at": "2026-09-25T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10460",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-25",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. We noticed this starting yesterday.",
+    "created_at": "2026-09-14T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10461",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-73",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. It's blocking our deployment.",
+    "created_at": "2026-09-23T20:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10462",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-27",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. It's blocking our deployment.",
+    "created_at": "2026-09-26T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10463",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-49",
+    "customer_tier": "free_tier",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Support ticket #402 opened.",
+    "created_at": "2026-09-17T04:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10464",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-16",
+    "customer_tier": "growth",
+    "raw_text": "The usage-based pricing dashboard hasn't updated in 48 hours. I have no idea what our current spend is. Any ETA on a fix?",
+    "created_at": "2026-09-19T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10465",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-94",
+    "customer_tier": "startup",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description.",
+    "created_at": "2026-09-27T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10466",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-76",
+    "customer_tier": "startup",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. Attached is the HAR file.",
+    "created_at": "2026-09-13T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10467",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-38",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. Attached is the HAR file.",
+    "created_at": "2026-09-09T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10468",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-82",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10469",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-26",
+    "customer_tier": "startup",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10470",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-15",
+    "customer_tier": "enterprise",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. We noticed this starting yesterday.",
+    "created_at": "2026-09-25T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10471",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-50",
+    "customer_tier": "growth",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Any ETA on a fix?",
+    "created_at": "2026-09-25T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10472",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-56",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. We noticed this starting yesterday.",
+    "created_at": "2026-09-25T15:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10473",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-84",
+    "customer_tier": "startup",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Support ticket #402 opened.",
+    "created_at": "2026-09-21T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10474",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-35",
+    "customer_tier": "growth",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. Attached is the HAR file.",
+    "created_at": "2026-09-24T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10475",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-81",
+    "customer_tier": "growth",
+    "raw_text": "We need SCIM provisioning support before we can roll this out to the rest of the org. We noticed this starting yesterday.",
+    "created_at": "2026-09-25T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10476",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-83",
+    "customer_tier": "growth",
+    "raw_text": "Dark mode is broken on the billing invoice page. The text is dark gray on a black background. It's blocking our deployment.",
+    "created_at": "2026-09-26T22:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10477",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-63",
+    "customer_tier": "growth",
+    "raw_text": "Our accounting team needs invoices sent to a separate billing email automatically. Support ticket #402 opened.",
+    "created_at": "2026-09-24T18:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10478",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-74",
+    "customer_tier": "growth",
+    "raw_text": "The new navigation sidebar buried the API settings. It took me 20 minutes to find where to rotate my keys. Attached is the HAR file.",
+    "created_at": "2026-09-26T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10479",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-98",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long.",
+    "created_at": "2026-09-23T23:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10480",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-60",
+    "customer_tier": "enterprise",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T12:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10481",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-18",
+    "customer_tier": "enterprise",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint.",
+    "created_at": "2026-09-27T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10482",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-68",
+    "customer_tier": "enterprise",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. It's blocking our deployment.",
+    "created_at": "2026-09-25T01:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10483",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-62",
+    "customer_tier": "growth",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. It's blocking our deployment.",
+    "created_at": "2026-09-17T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10484",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-29",
+    "customer_tier": "growth",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen.",
+    "created_at": "2026-09-04T21:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10485",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-15",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Support ticket #402 opened.",
+    "created_at": "2026-09-26T07:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10486",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-27",
+    "customer_tier": "growth",
+    "raw_text": "Exporting the Q3 analytics report to CSV timed out after 3 minutes. It's completely unusable for large datasets. It's blocking our deployment.",
+    "created_at": "2026-09-15T11:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10487",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-49",
+    "customer_tier": "enterprise",
+    "raw_text": "We are hitting the API rate limit of 100/min way too fast. We need a higher tier or a bulk endpoint. We noticed this starting yesterday.",
+    "created_at": "2026-09-16T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10488",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-11",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Please escalate this.",
+    "created_at": "2026-09-02T19:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10489",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-86",
+    "customer_tier": "enterprise",
+    "raw_text": "SAML SSO is failing for our Azure AD users. It keeps looping back to the login screen. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T17:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10490",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-71",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Attached is the HAR file.",
+    "created_at": "2026-09-13T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10491",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-19",
+    "customer_tier": "growth",
+    "raw_text": "Your webhooks keep silently failing. We aren't getting any 500 error logs on our end, the payloads just never arrive. Support ticket #402 opened.",
+    "created_at": "2026-09-23T14:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10492",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-51",
+    "customer_tier": "free_tier",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Any ETA on a fix?",
+    "created_at": "2026-09-08T08:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10493",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-68",
+    "customer_tier": "enterprise",
+    "raw_text": "The RBAC (Role-Based Access Control) is too rigid. I can't give a user 'View Only' access to billing without exposing API keys. Please escalate this.",
+    "created_at": "2026-09-27T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10494",
+    "source": "slack_connect",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-38",
+    "customer_tier": "enterprise",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Any ETA on a fix?",
+    "created_at": "2026-09-19T02:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10495",
+    "source": "g2_reviews",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-85",
+    "customer_tier": "free_tier",
+    "raw_text": "The main dashboard takes 8-10 seconds to load for accounts with over 10,000 active users. Please escalate this.",
+    "created_at": "2026-09-23T10:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10496",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-58",
+    "customer_tier": "startup",
+    "raw_text": "The Jira integration drops custom fields when syncing tickets. It only pulls over the title and description. We noticed this starting yesterday.",
+    "created_at": "2026-09-24T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10497",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-64",
+    "customer_tier": "startup",
+    "raw_text": "We need a SOC2 Type II report and a DPA before we can renew our annual contract. We noticed this starting yesterday.",
+    "created_at": "2026-09-21T16:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10498",
+    "source": "zendesk",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-59",
+    "customer_tier": "growth",
+    "raw_text": "Typing in the rich text editor has a noticeable 2-second lag when the document gets long. We noticed this starting yesterday.",
+    "created_at": "2026-09-26T03:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10499",
+    "source": "intercom",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-48",
+    "customer_tier": "growth",
+    "raw_text": "Session timeouts are way too short. My team is getting logged out every 15 minutes. Support ticket #402 opened.",
+    "created_at": "2026-09-20T06:34:59.044668+00:00"
+  },
+  {
+    "external_id": "TKT-10500",
+    "source": "salesforce",
+    "source_type": "support_ticket",
+    "customer_id": "ORG-11",
+    "customer_tier": "startup",
+    "raw_text": "Bulk deleting records is a nightmare. I have to click a checkbox on every single row instead of 'Select All'. Support ticket #402 opened.",
+    "created_at": "2026-09-02T15:34:59.044668+00:00"
+  }
+]

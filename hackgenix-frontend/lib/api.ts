@@ -649,6 +649,28 @@ export interface AnalyticsInsightResult {
 }
 
 // ---------------------------------------------------------------------------
+// Ingestion (webhook + scheduled sync channels)
+// ---------------------------------------------------------------------------
+
+export type WebhookSource = "zendesk" | "survey" | "app_store" | "generic";
+
+export interface WebhookIngestResponse {
+  status: "created" | "duplicate";
+  feedback: FeedbackRead;
+}
+
+export type SyncSource = "demo" | "csv_drop";
+
+export interface SyncResultResponse {
+  source: string;
+  records_fetched: number;
+  new: number;
+  duplicates: number;
+  failed: number;
+  errors: string[];
+}
+
+// ---------------------------------------------------------------------------
 // Error envelope + fetch wrapper
 // ---------------------------------------------------------------------------
 
@@ -764,6 +786,19 @@ export const api = {
       }
       return data as BulkIngestResponse;
     },
+    bulkIngestJson: async (file: File) => {
+      const form = new FormData();
+      form.append("file", file);
+      const response = await fetch(`${API_BASE_URL}/api/v1/feedback/bulk/json`, {
+        method: "POST",
+        body: form,
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new ApiError(response.status, data?.error?.code ?? "unknown_error", data?.error?.message ?? "Bulk JSON ingest failed");
+      }
+      return data as BulkIngestResponse;
+    },
     analyze: (id: string) => post<{ feedback_id: string; processing_status: ProcessingStatus; analysis: FeedbackAnalysisRead }>(
       `/api/v1/feedback/${id}/analyze`
     ),
@@ -801,6 +836,12 @@ export const api = {
     compareEvaluations: (id: string, fromId: string, toId: string) =>
       get<DecisionStabilityResult>(`/api/v1/decisions/${id}/evaluations/${fromId}/compare/${toId}`),
     challenge: (id: string) => get<DecisionChallengeResult>(`/api/v1/decisions/${id}/challenge`),
+  },
+
+  ingestion: {
+    webhook: (source: WebhookSource | string, payload: Record<string, unknown>) =>
+      post<WebhookIngestResponse>(`/api/v1/ingestion/webhook/${source}`, payload),
+    sync: (source: SyncSource | string) => post<SyncResultResponse>(`/api/v1/ingestion/sync/${source}`),
   },
 
   analytics: {
